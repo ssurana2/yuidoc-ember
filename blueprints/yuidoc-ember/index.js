@@ -6,7 +6,6 @@ module.exports = {
   normalizeEntityName: function(){},
   afterInstall: function(){
     const pkg = this.project.pkg;
-    this.ui.writeLine(pkg.keywords);
     var type = pkg.keywords && pkg.keywords.indexOf('ember-addon') !== -1 ? 'addon' : 'app';
     this.generateDocOptions(this.defaultConfig(pkg), type);
     this.generateServerOptions(this.defaultConfig(pkg));
