@@ -3,7 +3,7 @@ var fs = require('fs');
 
 module.exports = {
   description: 'Generates yuidoc.json if it does not exists',
-
+  normalizeEntityName: function(){},
   afterInstall: function(){
     const pkg = this.project.pkg;
     var type = pkg.keywords && pkg.keywords.indexOf('ember-addon') === -1 ? 'app' : 'addon';
