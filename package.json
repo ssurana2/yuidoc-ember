@@ -1,6 +1,6 @@
 {
   "name": "yuidoc-ember",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generates documentation using YUIDoc comments from the application or addon",
   "directories": {
     "doc": "doc",
