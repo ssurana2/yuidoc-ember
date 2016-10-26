@@ -32,7 +32,7 @@ The hosting of the docs can only be done when ember development or test server i
 
 The hosting of the docs can be stopped for a particular environment by removing the environment type value from the `options.hostDocsFor` array of `yuiserver.json` file present in the application root directory. The hosting can be entirely stopped by emptying or removing the property `options.hostDocsFor` from `yuiserver.json` file.
 
-By default the port where the docs would be hosted on http://127.0.0.1 is `4662`.
+By default the port where the docs would be hosted on http://127.0.0.1 is `4462`.
 ```javascript
 {
   "name": "application name",
